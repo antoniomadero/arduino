@@ -1,0 +1,32 @@
+# PlatformIO build složky a cache
+.pio/
+.pioenvs/
+.piodevice.json
+.clang_complete
+.ccache/
+.pioinit.log
+
+# VS Code + PlatformIO specifické
+.vscode/c_cpp_properties.json
+.vscode/.browse.VC.db*
+.vscode/ipch/
+
+# Binárky a výstupy buildu
+*.elf
+*.hex
+*.bin
+*.map
+*.eep
+*.lss
+
+# Staré/deprecated PlatformIO složky
+.piolibdeps/
+.libdeps/
+
+# Python cache (kdyby náhodou)
+__pycache__/
+*.pyc
+
+# Lokální environment soubory
+.env
+.env.local
